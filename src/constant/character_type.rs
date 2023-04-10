@@ -1,31 +1,28 @@
 pub enum Gender {
-    Male,
-    Female
+    Female,
+    Male
 }
 
 pub enum Race {
-    HumanBeing,
-    Orc,
+    Dwarf,
     Elf,
     HalfElf,
-    Dwarf,
+    HumanBeing,
+    Orc,
     ShadowBorn
 }
 
+#[derive(Eq, Hash, PartialEq)]
 pub enum RoleTag {
-    ScaleKnight,
-    WanderKnight,
+    Archer,
     ArmoredWarrior,
-    Thief,
     Assassin,
-    ElementWizard,
-    Mage,
-    Healer,
-    Priest,
     BlackSmith,
-    Archer
-}
-
-pub enum PersonalityTag {
-
+    ElementWizard,
+    Healer,
+    Mage,
+    Priest,
+    ScaleKnight,
+    Thief,
+    WanderKnight,
 }
