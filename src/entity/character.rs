@@ -327,7 +327,7 @@ impl CharacterAttr {
     }
 }
 
-struct CharacterState {
+pub struct CharacterState {
     health: u32,
     will: u32,
 
@@ -513,6 +513,8 @@ impl CharacterState {
         self.posison_resist = val;
     }
 }
+
+pub 
 
 struct Character {
     attr: CharacterAttr,
